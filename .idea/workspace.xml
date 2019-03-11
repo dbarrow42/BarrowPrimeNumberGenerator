@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PrimeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="24" column="100" selection-start-line="24" selection-start-column="100" selection-end-line="24" selection-end-column="100" />
+            <state relative-caret-position="276">
+              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="330">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
@@ -216,12 +216,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeGeneratorTest_GenerateReturnsEmptyListWhenNoPrimesExistInRange - 2019.03.11 at 19h 07m 57s.xml">
-      <configuration name="PrimeGeneratorTest.GenerateReturnsEmptyListWhenNoPrimesExistInRange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 09m 17s.xml">
-      <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimeGeneratorTest_GenerateCorrectlyWhenGivenInverseRange - 2019.03.11 at 19h 12m 14s.xml">
       <configuration name="PrimeGeneratorTest.GenerateCorrectlyWhenGivenInverseRange" configurationId="JUnit" />
     </history-entry>
@@ -244,6 +238,12 @@
       <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 31m 24s.xml">
+      <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 33m 10s.xml">
+      <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 35m 14s.xml">
       <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -291,8 +291,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="330">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
@@ -303,8 +303,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PrimeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="24" column="100" selection-start-line="24" selection-start-column="100" selection-end-line="24" selection-end-column="100" />
+        <state relative-caret-position="276">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
