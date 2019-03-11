@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PrimeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="146">
+              <caret line="45" column="54" lean-forward="true" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
@@ -73,8 +73,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/PrimeNumberGenerator.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/PrimeGenerator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java" />
       </list>
     </option>
   </component>
@@ -185,11 +185,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeGeneratorTest.GenerateReturnsListOfPrimeForSameStartAndEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeGeneratorTest.GenerateReturnsListOfPrimeForValidRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BarrowPrimeNumberGenerator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PrimeGeneratorTest" />
-      <option name="METHOD_NAME" value="GenerateReturnsListOfPrimeForSameStartAndEnd" />
+      <option name="METHOD_NAME" value="GenerateReturnsListOfPrimeForValidRange" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,10 +198,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PrimeGeneratorTest" />
+        <item itemvalue="JUnit.PrimeGeneratorTest.GenerateReturnsListOfPrimeForValidRange" />
         <item itemvalue="JUnit.PrimeGeneratorTest.GenerateListBetween7900And7920" />
         <item itemvalue="JUnit.PrimeGeneratorTest.GenerateCorrectlyWhenGivenInverseRange" />
         <item itemvalue="JUnit.PrimeGeneratorTest.GenerateReturnsEmptyListWhenNoPrimesExistInRange" />
-        <item itemvalue="JUnit.PrimeGeneratorTest.GenerateReturnsListOfPrimeForSameStartAndEnd" />
       </list>
     </recent_temporary>
   </component>
@@ -216,21 +216,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeGeneratorTest_GenerateCorrectlyWhenGivenInverseRange - 2019.03.11 at 19h 12m 14s.xml">
-      <configuration name="PrimeGeneratorTest.GenerateCorrectlyWhenGivenInverseRange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeGeneratorTest_GenerateCorrectlyWhenGivenInverseRange - 2019.03.11 at 19h 12m 35s.xml">
-      <configuration name="PrimeGeneratorTest.GenerateCorrectlyWhenGivenInverseRange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 14m 03s.xml">
-      <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeGeneratorTest_GenerateListBetween7900And7920 - 2019.03.11 at 19h 15m 25s.xml">
-      <configuration name="PrimeGeneratorTest.GenerateListBetween7900And7920" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 18m 50s.xml">
-      <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 26m 37s.xml">
       <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
     </history-entry>
@@ -245,6 +230,21 @@
     </history-entry>
     <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 35m 14s.xml">
       <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 35m 51s.xml">
+      <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 37m 27s.xml">
+      <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 38m 17s.xml">
+      <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeGeneratorTest_GenerateReturnsListOfPrimeForValidRange - 2019.03.11 at 19h 39m 05s.xml">
+      <configuration name="PrimeGeneratorTest.GenerateReturnsListOfPrimeForValidRange" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeGeneratorTest_GenerateReturnsListOfPrimeForValidRange - 2019.03.11 at 19h 39m 14s.xml">
+      <configuration name="PrimeGeneratorTest.GenerateReturnsListOfPrimeForValidRange" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -289,24 +289,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PrimeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="276">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PrimeGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        <state relative-caret-position="146">
+          <caret line="45" column="54" lean-forward="true" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
           </folding>
         </state>
       </provider>

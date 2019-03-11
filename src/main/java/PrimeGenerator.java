@@ -23,7 +23,7 @@ public class PrimeGenerator implements PrimeNumberGenerator {
     public boolean isPrime(int value) {
         // By mathematical definition, all values in the range (- infinity, 1] are non prime, as well as all even numbers greater than 2
         if(value < 2 || (value > 2 && value % 2 == 0)) return false;
-        for(int i = 2; i < value; i++) {
+        for(int i = 3; i < value; i += 2) {
             if(value % i == 0) {
                 return false;
             }
