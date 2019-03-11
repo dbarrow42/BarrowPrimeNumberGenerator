@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126fc9ed-2595-4628-944d-96f3dc95a713" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PrimeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PrimeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PrimeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PrimeGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PrimeGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PrimeGeneratorTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,13 +15,16 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/BarrowPrimeNumberGenerator$PrimeGeneratorTest.ic" NAME="PrimeGeneratorTest Coverage Results" MODIFIED="1552346899227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PrimeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="253">
+              <caret line="24" column="100" selection-start-line="24" selection-start-column="100" selection-end-line="24" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="537">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
@@ -74,8 +73,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/PrimeNumberGenerator.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/PrimeGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PrimeGenerator.java" />
       </list>
     </option>
   </component>
@@ -217,12 +216,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeGeneratorTest_GenerateReturnsListOfPrimeForValidRange - 2019.03.11 at 19h 03m 51s.xml">
-      <configuration name="PrimeGeneratorTest.GenerateReturnsListOfPrimeForValidRange" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeGeneratorTest_GenerateReturnsListOfPrimeForSameStartAndEnd - 2019.03.11 at 19h 06m 58s.xml">
-      <configuration name="PrimeGeneratorTest.GenerateReturnsListOfPrimeForSameStartAndEnd" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimeGeneratorTest_GenerateReturnsEmptyListWhenNoPrimesExistInRange - 2019.03.11 at 19h 07m 57s.xml">
       <configuration name="PrimeGeneratorTest.GenerateReturnsEmptyListWhenNoPrimesExistInRange" configurationId="JUnit" />
     </history-entry>
@@ -247,17 +240,24 @@
     <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 26m 37s.xml">
       <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 28m 42s.xml">
+      <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeGeneratorTest - 2019.03.11 at 19h 31m 24s.xml">
+      <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,6 +266,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32998884" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -281,16 +282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PrimeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PrimeNumberGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -300,12 +291,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="537">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
             <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PrimeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="24" column="100" selection-start-line="24" selection-start-column="100" selection-end-line="24" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
