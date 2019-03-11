@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126fc9ed-2595-4628-944d-96f3dc95a713" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BarrowPrimeNumberGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BarrowPrimeNumberGenerator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PrimeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PrimeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,14 +30,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="414">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#194#195#0" expanded="true" />
                 <element signature="e#244#245#0" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,12 +123,6 @@
               <item name="BarrowPrimeNumberGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="BarrowPrimeNumberGenerator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BarrowPrimeNumberGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BarrowPrimeNumberGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -156,7 +143,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PrimeGeneratorTest.IsPrimeReturnsFalseForNonPrime">
+    <configuration name="PrimeGeneratorTest.IsPrimeReturnsFalseForNonPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BarrowPrimeNumberGenerator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrimeGeneratorTest" />
+      <option name="METHOD_NAME" value="IsPrimeReturnsFalseForNonPrime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrimeGeneratorTest.IsPrimeReturnsTrueForValidPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BarrowPrimeNumberGenerator" />
       <option name="PACKAGE_NAME" value="" />
@@ -169,6 +166,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrimeGeneratorTest.IsPrimeReturnsFalseForNonPrime" />
         <item itemvalue="JUnit.PrimeGeneratorTest.IsPrimeReturnsTrueForValidPrime" />
       </list>
     </recent_temporary>
@@ -183,6 +181,11 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PrimeGeneratorTest_IsPrimeReturnsTrueForValidPrime - 2019.03.11 at 18h 39m 47s.xml">
+      <configuration name="PrimeGeneratorTest.IsPrimeReturnsTrueForValidPrime" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
@@ -194,9 +197,10 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32998884" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -236,14 +240,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="414">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#194#195#0" expanded="true" />
             <element signature="e#244#245#0" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
           </folding>
         </state>
       </provider>

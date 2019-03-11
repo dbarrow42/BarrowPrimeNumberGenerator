@@ -1,8 +1,7 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class PrimeGeneratorTest {
 
@@ -15,5 +14,10 @@ public class PrimeGeneratorTest {
     @Test
     void IsPrimeReturnsTrueForValidPrime() {
         assertTrue(this.numGen.isPrime(5));
+    }
+
+    @Test
+    void IsPrimeReturnsFalseForNonPrime() {
+        assertFalse(this.numGen.isPrime(4));
     }
 }
