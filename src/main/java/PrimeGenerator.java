@@ -1,9 +1,17 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class PrimeGenerator implements PrimeNumberGenerator {
 
     public List<Integer> generate(int startingValue, int endingValue) {
-        return null;
+        List<Integer> primes = new ArrayList<Integer>();
+        while(startingValue <= endingValue) {
+            if(isPrime(startingValue)) {
+                primes.add(startingValue);
+            }
+            startingValue++;
+        }
+        return primes;
     }
 
     public boolean isPrime(int value) {

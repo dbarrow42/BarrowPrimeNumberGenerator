@@ -1,6 +1,10 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PrimeGeneratorTest {
@@ -34,5 +38,11 @@ public class PrimeGeneratorTest {
     @Test
     void IsPrimeReturnsTrueForTwo() {
         assertTrue(this.numGen.isPrime(2));
+    }
+
+    @Test
+    void GenerateReturnsListOfPrimeForValidRange() {
+        List<Integer> primes = Arrays.asList(2, 3, 5);
+        assertEquals(primes, this.numGen.generate(0, 5));
     }
 }
