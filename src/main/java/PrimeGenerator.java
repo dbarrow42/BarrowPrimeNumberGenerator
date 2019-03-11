@@ -4,6 +4,12 @@ import java.util.List;
 public class PrimeGenerator implements PrimeNumberGenerator {
 
     public List<Integer> generate(int startingValue, int endingValue) {
+        
+        if(startingValue > endingValue) {
+            int temp = endingValue;
+            endingValue = startingValue;
+            startingValue = temp;
+        }
         List<Integer> primes = new ArrayList<Integer>();
         while(startingValue <= endingValue) {
             if(isPrime(startingValue)) {

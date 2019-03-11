@@ -56,4 +56,10 @@ public class PrimeGeneratorTest {
     void GenerateReturnsEmptyListWhenNoPrimesExistInRange() {
         assertTrue(this.numGen.generate(0, 1).isEmpty());
     }
+
+    @Test
+    void GenerateCorrectlyWhenGivenInverseRange() {
+        List<Integer> primes = Arrays.asList(2, 3, 5);
+        assertEquals(primes, this.numGen.generate(5, 0));
+    }
 }
