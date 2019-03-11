@@ -20,4 +20,9 @@ public class PrimeGeneratorTest {
     void IsPrimeReturnsFalseForNonPrime() {
         assertFalse(this.numGen.isPrime(4));
     }
+
+    @Test
+    void IsPrimeReturnsFalseForZero() {
+        assertFalse(this.numGen.isPrime(0));
+    }
 }
