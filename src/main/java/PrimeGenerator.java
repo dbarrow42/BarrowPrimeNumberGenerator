@@ -7,7 +7,7 @@ public class PrimeGenerator implements PrimeNumberGenerator {
     }
 
     public boolean isPrime(int value) {
-        if(value < 2) return false;
+        if(value < 2) return false; // By mathematical definition, all values in the range (- infinity, 1] are non prime.
         for(int i = 2; i < value; i++) {
             if(value % i == 0) {
                 return false;
