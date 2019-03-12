@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class PrimeGeneratorTest {
 
-    private PrimeNumberGenerator numGen;
+    private PrimeGenerator numGen;
     @BeforeEach
     private void setup() {
         this.numGen = new PrimeGenerator();
@@ -72,5 +72,8 @@ public class PrimeGeneratorTest {
         assertEquals(primes, this.numGen.generate(7900, 7920));
     }
 
-
+    @Test
+    void GetPrimesInRangePrintsPrimes() {
+        assertEquals(this.numGen.getPrimesInRange(0, 5), "Primes in range [0, 5]: [2, 3, 5]");
+    }
 }

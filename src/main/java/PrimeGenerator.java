@@ -34,4 +34,8 @@ public class PrimeGenerator implements PrimeNumberGenerator {
         }
         return true;
     }
+
+    public String getPrimesInRange(int startingValue, int endingValue) {
+        return String.format("Primes in range [%d, %d]: ", startingValue, endingValue) + generate(startingValue, endingValue);
+    }
 }
