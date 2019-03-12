@@ -39,6 +39,11 @@ public class PrimeGeneratorTest {
     }
 
     @Test
+    void IsPrimeReturnsFalseForPerfectSquare() {
+        assertFalse(this.numGen.isPrime(9));
+    }
+
+    @Test
     void GenerateReturnsListOfPrimeForValidRange() {
         List<Integer> primes = Arrays.asList(2, 3, 5);
         assertEquals(primes, this.numGen.generate(0, 5));
@@ -66,4 +71,6 @@ public class PrimeGeneratorTest {
         List<Integer> primes = Arrays.asList(7901, 7907, 7919);
         assertEquals(primes, this.numGen.generate(7900, 7920));
     }
+
+
 }

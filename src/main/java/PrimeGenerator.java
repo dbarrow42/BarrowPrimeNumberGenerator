@@ -22,7 +22,12 @@ public class PrimeGenerator implements PrimeNumberGenerator {
     public boolean isPrime(int value) {
         // By mathematical definition, all values in the range (- infinity, 1] are non prime, as well as all even numbers greater than 2
         if(value < 2 || (value > 2 && value % 2 == 0)) return false;
-        for(int i = 3; i < value / 2; i += 2) { // Only need to check up to half of the integers as any int larger than half cannot be a factor as the other factor would be < 2
+        /*
+         Only need to check up to the square root of value because value must be equal to factors x * y in order to be prime. Both x and y must be less than or equal to
+         the square root or their product would be larger than value. You only need to check the larger potential factor as previous iterations have checked the
+         integers smaller than it.
+        */
+        for(int i = 3; i <= Math.sqrt(value); i += 2) { // Only need to check integers less than the square root of value, as a non prime number value
             if(value % i == 0) {
                 return false;
             }
