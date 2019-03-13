@@ -1,5 +1,7 @@
 package com.barrow.primeNumberGenerator;
 
+import com.barrow.primeNumberGenerator.util.InputValidator;
+
 public class Main {
 
     public static void main(String... args) {

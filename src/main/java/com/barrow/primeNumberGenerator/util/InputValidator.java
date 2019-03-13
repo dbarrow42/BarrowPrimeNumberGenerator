@@ -1,7 +1,6 @@
-package com.barrow.primeNumberGenerator;
+package com.barrow.primeNumberGenerator.util;
 
 public class InputValidator {
-
     private static final String ILLEGAL_INPUT_MESSAGE = "Unacceptable input, please provide a start and end value for the range to generate primes from.";
     private static final String ILLEGAL_NUMBER_MESSAGE = "Input: '%s' is not an acceptable integer.";
 

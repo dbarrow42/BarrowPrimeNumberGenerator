@@ -1,4 +1,4 @@
-import com.barrow.primeNumberGenerator.InputValidator;
+import com.barrow.primeNumberGenerator.util.InputValidator;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
