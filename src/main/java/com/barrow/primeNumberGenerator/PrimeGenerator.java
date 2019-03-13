@@ -6,7 +6,7 @@ import java.util.List;
 public class PrimeGenerator implements PrimeNumberGenerator {
 
     public List<Integer> generate(int startingValue, int endingValue) {
-        if(startingValue > endingValue) {
+        if(startingValue > endingValue) { // swap start and end
             int temp = endingValue;
             endingValue = startingValue;
             startingValue = temp;
