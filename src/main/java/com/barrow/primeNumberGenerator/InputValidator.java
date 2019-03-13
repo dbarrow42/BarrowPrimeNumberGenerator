@@ -1,3 +1,5 @@
+package com.barrow.primeNumberGenerator;
+
 public class InputValidator {
 
     private static final String ILLEGAL_INPUT_MESSAGE = "Unacceptable input, please provide a start and end value for the range to generate primes from.";
