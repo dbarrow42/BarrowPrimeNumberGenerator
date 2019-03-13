@@ -1,5 +1,5 @@
 # BarrowPrimeNumberGenerator
-My Java implementation of Updox's Prime Number Generator coding exercise.
+My Java implementation of Updox's Prime Number Generator coding exercise.  
 Please reach out to me at barrowdylan9[at]gmail[dot]com if you have any issues or questions!
 
 ## Prerequisite Tools
@@ -7,8 +7,8 @@ Please reach out to me at barrowdylan9[at]gmail[dot]com if you have any issues o
 - Maven (I'm using 3.6.0 but version probably doesn't matter much)
 
 ## Build and Test
-Build project: `mvn clean install`
-Test project: `mvn test`
+Build project: `mvn clean install`  
+Test project: `mvn test`  
 Run application from command line: `java -jar target/BarrowPrimeGenerator.jar <startingValue> <endingValue>`
 
 Ex: `$ java -jar target/BarrowPrimeGenerator.jar 0 29`
