@@ -29,7 +29,8 @@ public class PrimeGenerator implements PrimeNumberGenerator {
          the square root or their product would be larger than value. You only need to check the larger potential factor as previous iterations have checked the
          integers smaller than it.
         */
-        for(int i = 3; i <= Math.sqrt(value); i += 2) {
+        int sqrt = (int) Math.sqrt(value);
+        for(int i = 3; i <= sqrt; i += 2) {
             if(value % i == 0) {
                 return false;
             }
