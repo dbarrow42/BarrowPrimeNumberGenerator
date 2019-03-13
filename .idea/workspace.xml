@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126fc9ed-2595-4628-944d-96f3dc95a713" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/InputValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InputValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InputValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InputValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InputValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InputValidatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,18 +15,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BarrowPrimeNumberGenerator$InputValidatorTest.ic" NAME="InputValidatorTest Coverage Results" MODIFIED="1552434937199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/BarrowPrimeNumberGenerator$PrimeGeneratorTest.ic" NAME="PrimeGeneratorTest Coverage Results" MODIFIED="1552346899227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BarrowPrimeNumberGenerator$InputValidatorTest_and_1_more.ic" NAME="InputValidatorTest and 1 more Coverage Results" MODIFIED="1552435001768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="241" />
+    <option name="myElementSize" value="290" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/InputValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+            <state relative-caret-position="345">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -42,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/InputValidatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="851">
+              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,8 +84,8 @@
         <option value="$PROJECT_DIR$/src/main/java/PrimeGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InputValidator.java" />
         <option value="$PROJECT_DIR$/src/test/java/InputValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/InputValidator.java" />
       </list>
     </option>
   </component>
@@ -127,19 +136,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BarrowPrimeNumberGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BarrowPrimeNumberGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BarrowPrimeNumberGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BarrowPrimeNumberGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -162,7 +158,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InputValidatorTest.ValidateInputWithLessThanTwoArgsReturnsFalse">
+  <component name="RunManager" selected="JUnit.InputValidatorTest and 1 more">
+    <configuration name="InputValidatorTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BarrowPrimeNumberGenerator" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="InputValidatorTest" />
+        <pattern testClass="PrimeGeneratorTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BarrowPrimeNumberGenerator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InputValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputValidatorTest.ValidateInputWithArgLargerThanIntMaxReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BarrowPrimeNumberGenerator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InputValidatorTest" />
+      <option name="METHOD_NAME" value="ValidateInputWithArgLargerThanIntMaxReturnsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputValidatorTest.ValidateInputWithFloatArgReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BarrowPrimeNumberGenerator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InputValidatorTest" />
+      <option name="METHOD_NAME" value="ValidateInputWithFloatArgReturnsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InputValidatorTest.ValidateInputWithLessThanTwoArgsReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BarrowPrimeNumberGenerator" />
       <option name="PACKAGE_NAME" value="" />
@@ -173,60 +209,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputValidatorTest.ValidateInputWithMoreThanTwoArgsReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BarrowPrimeNumberGenerator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InputValidatorTest" />
-      <option name="METHOD_NAME" value="ValidateInputWithMoreThanTwoArgsReturnsFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InputValidatorTest.ValidateInputWithNonIntegerArgReturnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BarrowPrimeNumberGenerator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InputValidatorTest" />
-      <option name="METHOD_NAME" value="ValidateInputWithNonIntegerArgReturnsFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InputValidatorTest.ValidateValidInputReturnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BarrowPrimeNumberGenerator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InputValidatorTest" />
-      <option name="METHOD_NAME" value="ValidateValidInputReturnsTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeGeneratorTest.GetPrimesInRangePrintsPrimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BarrowPrimeNumberGenerator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrimeGeneratorTest" />
-      <option name="METHOD_NAME" value="GetPrimesInRangePrintsPrimes" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.PrimeGeneratorTest.GetPrimesInRangePrintsPrimes" />
-      <item itemvalue="JUnit.InputValidatorTest.ValidateValidInputReturnsTrue" />
       <item itemvalue="JUnit.InputValidatorTest.ValidateInputWithLessThanTwoArgsReturnsFalse" />
-      <item itemvalue="JUnit.InputValidatorTest.ValidateInputWithMoreThanTwoArgsReturnsFalse" />
-      <item itemvalue="JUnit.InputValidatorTest.ValidateInputWithNonIntegerArgReturnsFalse" />
+      <item itemvalue="JUnit.InputValidatorTest.ValidateInputWithFloatArgReturnsFalse" />
+      <item itemvalue="JUnit.InputValidatorTest.ValidateInputWithArgLargerThanIntMaxReturnsFalse" />
+      <item itemvalue="JUnit.InputValidatorTest" />
+      <item itemvalue="JUnit.InputValidatorTest and 1 more" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InputValidatorTest and 1 more" />
+        <item itemvalue="JUnit.InputValidatorTest" />
+        <item itemvalue="JUnit.InputValidatorTest.ValidateInputWithArgLargerThanIntMaxReturnsFalse" />
+        <item itemvalue="JUnit.InputValidatorTest.ValidateInputWithFloatArgReturnsFalse" />
         <item itemvalue="JUnit.InputValidatorTest.ValidateInputWithLessThanTwoArgsReturnsFalse" />
-        <item itemvalue="JUnit.InputValidatorTest.ValidateInputWithNonIntegerArgReturnsFalse" />
-        <item itemvalue="JUnit.InputValidatorTest.ValidateInputWithMoreThanTwoArgsReturnsFalse" />
-        <item itemvalue="JUnit.InputValidatorTest.ValidateValidInputReturnsTrue" />
-        <item itemvalue="JUnit.PrimeGeneratorTest.GetPrimesInRangePrintsPrimes" />
       </list>
     </recent_temporary>
   </component>
@@ -241,24 +237,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeGeneratorTest_IsPrimeReturnsFalseForNine - 2019.03.12 at 18h 43m 42s.xml">
-      <configuration name="PrimeGeneratorTest.IsPrimeReturnsFalseForNine" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeGeneratorTest_IsPrimeReturnsFalseForNine - 2019.03.12 at 18h 44m 25s.xml">
-      <configuration name="PrimeGeneratorTest.IsPrimeReturnsFalseForNine" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeGeneratorTest - 2019.03.12 at 18h 44m 37s.xml">
-      <configuration name="PrimeGeneratorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeGeneratorTest_IsPrimeReturnsFalseForPerfectSquare - 2019.03.12 at 18h 47m 58s.xml">
-      <configuration name="PrimeGeneratorTest.IsPrimeReturnsFalseForPerfectSquare" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeGeneratorTest_GetPrimesInRangePrintsPrimes - 2019.03.12 at 19h 40m 50s.xml">
-      <configuration name="PrimeGeneratorTest.GetPrimesInRangePrintsPrimes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InputValidatorTest_ValidateValidInputReturnsTrue - 2019.03.12 at 19h 50m 10s.xml">
-      <configuration name="InputValidatorTest.ValidateValidInputReturnsTrue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InputValidatorTest_ValidateInputWithLessThanTwoArgsReturnsFalse - 2019.03.12 at 19h 50m 47s.xml">
       <configuration name="InputValidatorTest.ValidateInputWithLessThanTwoArgsReturnsFalse" configurationId="JUnit" />
     </history-entry>
@@ -271,18 +249,36 @@
     <history-entry file="InputValidatorTest_ValidateInputWithNonIntegerArgReturnsFalse - 2019.03.12 at 19h 52m 10s.xml">
       <configuration name="InputValidatorTest.ValidateInputWithNonIntegerArgReturnsFalse" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="InputValidatorTest_ValidateInputWithLessThanTwoArgsReturnsFalse - 2019.03.12 at 19h 52m 26s.xml">
+      <configuration name="InputValidatorTest.ValidateInputWithLessThanTwoArgsReturnsFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputValidatorTest_ValidateInputWithFloatArgReturnsFalse - 2019.03.12 at 19h 53m 43s.xml">
+      <configuration name="InputValidatorTest.ValidateInputWithFloatArgReturnsFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputValidatorTest_ValidateInputWithArgLargerThanIntMaxReturnsFalse - 2019.03.12 at 19h 54m 47s.xml">
+      <configuration name="InputValidatorTest.ValidateInputWithArgLargerThanIntMaxReturnsFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputValidatorTest_ValidateInputWithArgLargerThanIntMaxReturnsFalse - 2019.03.12 at 19h 55m 19s.xml">
+      <configuration name="InputValidatorTest.ValidateInputWithArgLargerThanIntMaxReturnsFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputValidatorTest - 2019.03.12 at 19h 55m 58s.xml">
+      <configuration name="InputValidatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InputValidatorTest_and_1_more - 2019.03.12 at 19h 57m 02s.xml">
+      <configuration name="InputValidatorTest and 1 more" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -307,13 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PrimeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -331,6 +320,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PrimeGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -338,20 +334,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InputValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/InputValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="851">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InputValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>

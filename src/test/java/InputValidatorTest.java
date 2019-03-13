@@ -26,4 +26,16 @@ public class InputValidatorTest {
         String[] args = {"0", "five"};
         assertFalse(InputValidator.validateInput(args));
     }
+
+    @Test
+    void ValidateInputWithFloatArgReturnsFalse() {
+        String[] args = {"0", "5.0"};
+        assertFalse(InputValidator.validateInput(args));
+    }
+
+    @Test
+    void ValidateInputWithArgLargerThanIntMaxReturnsFalse() {
+        String[] args = {"0", "2147483648"};
+        assertFalse(InputValidator.validateInput(args));
+    }
 }
